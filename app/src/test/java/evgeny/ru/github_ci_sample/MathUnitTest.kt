@@ -27,4 +27,9 @@ class MathUnitTest {
             }
         }
     }
+
+    @Test
+    fun `check error`() {
+        throw AssertionError("something went wrong...")
+    }
 }
